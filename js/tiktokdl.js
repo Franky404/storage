@@ -1,4 +1,4 @@
-// getting all required elements
+// getting all required element
 const searchWrapper = document.querySelector(".search-input");
 const inputBox = searchWrapper.querySelector("input");
 const suggBox = searchWrapper.querySelector(".autocom-box");
