@@ -12,7 +12,7 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            webLink = `https://tiktok.frangky.me/?url=${userData}`;
+            webLink = `https://tiktok.frangky.me/api/tiktok?url=${userData}`;
             linkTag.setAttribute("href", webLink);
             linkTag.click();
         }
@@ -40,7 +40,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://tiktok.frangky.me/?url=${selectData}`;
+        webLink = `https://tiktok.frangky.me/api/tiktok?url=${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
