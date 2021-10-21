@@ -24,15 +24,6 @@ body {
     }
 
 @media (max-width: 992px) {
-      .copyright {
-        margin: 30px auto 0;
-        bottom: inherit;
-        padding: 0 15px 30px;
-        position: relative;
-        width: 80%;
-        display: block;
-      }
-
       .header {
         line-height: 56px;
       }
