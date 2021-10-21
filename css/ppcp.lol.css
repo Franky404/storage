@@ -1,0 +1,52 @@
+body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f8f9fb;
+    }
+
+    a,
+    a:hover,
+    a:visited {
+      text-decoration: none;
+    }
+
+    .home-page {
+      padding-top: 1vh;
+      text-align: center;
+      display: block;
+      margin: 0 auto auto;
+    }
+
+    .header {
+      color: #313131;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+@media (max-width: 992px) {
+      .copyright {
+        margin: 30px auto 0;
+        bottom: inherit;
+        padding: 0 15px 30px;
+        position: relative;
+        width: 80%;
+        display: block;
+      }
+
+      .header {
+        line-height: 56px;
+      }
+    }
+
+@media (max-width: 650px) @media (max-width: 480px) {
+      .header {
+        line-height: 50px;
+        font-size: 46px;
+      }
+    }
+
+@media screen and (max-width: 375px) {
+      .home-page {
+        padding-top: 1vh;
+      }
+    }
