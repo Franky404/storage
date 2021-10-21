@@ -13,7 +13,7 @@
         jQuery('[data-toggle="tooltip"]').tooltip();
 
 $(window).load(function () {
-            $('.preloader').delay().fadeOut('');
+            $('.preloader').fadeOut('');
         });
 
 
