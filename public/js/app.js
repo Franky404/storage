@@ -12,6 +12,11 @@
         jQuery('[data-toggle="popover"]').popover();
         jQuery('[data-toggle="tooltip"]').tooltip();
 
+$(window).load(function () {
+            $('.preloader').delay(600).fadeOut('slow');
+        });
+
+
         /*---------------------------------------------------------------------
         Fixed Nav
         -----------------------------------------------------------------------*/
