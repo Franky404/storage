@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .window,
+    .box,
+    ul,
+    li {
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+    }
+    ul {
+      font-family: 'Fjalla One', sans-serif;
+      list-style-type: none;
+      text-transform: uppercase;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    .window {
+      box-shadow: 0 0 100px  rgba(0,0,0,0.25);
+      height: 460px;
+      margin: 2em auto 0;
+      width: 320px;
+      border-radius: 10px;
+    }
+    .sm {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0;
+    }
+    ul {
+      font-family: 'Fjalla One', sans-serif;
+      list-style-type: none;
+      text-transform: uppercase;
+    }
+
+    li {
+      display: inline-block;
+    }
+    .sm a {
+      color: #242424;
+      width: 56px;
+      font-size: 33px;
+      transition: .3s linear;
+    }
+    .sm a:hover {
+      color: #6be667;
+    }
+
+    .footer {
+      background: #fff;
+      bottom: 0;
+      color: #222;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      top: 370px;
+      width: inherit;
+    }
+
+    .footer ul {
+
+      display: flex;
+      font-size: 16px;
+      font-weight: 400;
+      height: 40px;
+      line-height: 40px;
+    }
+
+    .footer li:first-child {
+      border: 0;
+    }
+
+    .footer li {
+      border-left: 2px solid #222;
+      font-family: 'Quicksand', sans-serif;
+      padding: 0 4px 0 6px;
+      width: 100%;
+    }
+
+    .footer a span {
+      color: #222;
+      display: inline-block;
+      font-size: 26px;
+      padding: 0 4px 0 0;
+      vertical-align: middle;
+    }
