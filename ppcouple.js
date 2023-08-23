@@ -1,7 +1,7 @@
 var male = document.getElementById("male")
     var female = document.getElementById("female")
     var cr = document.querySelector('.carousel-inner')
-    $.getJSON("https://storage.frangky.me/ppcp.json",
+    $.getJSON("/ppcp.json",
       function (data) {
         const random_ppcp = data[Math.floor(Math.random() * data.length)]
         cr.innerHTML = `
